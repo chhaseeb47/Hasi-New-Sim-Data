@@ -92,7 +92,7 @@ searchBtn.addEventListener("click", async () => {
 
   const paid_api_key = "49d32e2308c704f3fa"; // replace this apikey with your paid apikey
   const free_api_key = "free_key@maher_apis";
-  const whatsapp_contact_link = "https://api.whatsapp.com/send/?phone=923466319114&text=Hi+Maher+Zubair+Bro%2C+I+Need+Paid+Service+to+Get+Sim+Details.&type=phone_number";
+  const whatsapp_contact_link = "https://whatsapp.com/channel/0029Vb5qnK2HbFUyftE5UP1X";
 
   try {
     let response = await fetch(`https://api.nexoracle.com/details/pak-sim-database?apikey=${paid_api_key}&q=${query}`);
